@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HomeworkFive</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="photo">photo</string>
+    <string name="pawel_czerwinski">Pawel Czerwinski</string>
+    <string name="pawel_user_name">\@pawel_czerwinski</string>
+    <string name="profile_picture_photo_desc">Profile Picture</string>
+    <string name="email_hint">Type your email</string>
+    <string name="back_arrow">Back Arrow</string>
+    <string name="password_hint">Type password</string>
+    <string name="next">next</string>
+    <string name="type_username">Type username</string>
+    <string name="agreement_text">By signing up, you agree to Photo’s <u>Terms of Service</u> and <u>Privacy Policy.</u></string>
+    <string name="sign_up">sign up</string>
+    <string name="your_user_is">Your user is:</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="username">Username:</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="go_home">Go Home</string>
+</resources>

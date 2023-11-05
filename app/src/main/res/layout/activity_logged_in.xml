@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".LoggedInActivity">
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="24dp"
+        android:onClick="onBackButtonClick"
+        android:layout_height="24dp"
+        android:clickable="true"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/back_arrow"
+        android:src="@drawable/back_arrow"
+        android:focusable="true" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:layout_marginTop="32.65dp"
+        android:text="@string/your_user_is"
+        android:fontFamily="@font/comfortaasemibold"
+        android:textAllCaps="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="32.65dp"
+            android:layout_marginEnd="5dp"
+            android:textStyle="bold"
+            android:text="@string/username"
+            android:textAllCaps="false"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="32.65dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/username"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginEnd="5dp"
+            android:textStyle="bold"
+            android:text="@string/e_mail"
+            android:textAllCaps="false"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/username"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignOut"
+        android:onClick="onSignOut"
+        android:layout_width="match_parent"
+        android:background="@drawable/register_btn"
+        android:text="@string/sign_out"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_height="52dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGoHome"
+        android:layout_marginVertical="16dp"
+        android:onClick="onBackButtonClick"
+        android:layout_width="match_parent"
+        android:background="@drawable/register_btn"
+        android:text="@string/go_home"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_height="52dp"/>
+
+</LinearLayout>
